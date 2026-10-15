@@ -4,35 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Talks — Liao Wang</title>
-
-    <style>
-        body {
-            font-family: Georgia, serif;
-            max-width: 850px;
-            margin: 60px auto;
-            padding: 0 20px;
-            line-height: 1.7;
-            color: #333;
-        }
-
-        h1, h2 {
-            color: #234d70;
-        }
-
-        nav a {
-            margin-right: 20px;
-            color: #234d70;
-            text-decoration: none;
-        }
-
-        a {
-            color: #246a91;
-        }
-
-        section {
-            margin-top: 35px;
-        }
-    </style>
+    <link rel="stylesheet" href="assets/css/style.css">
     <script>
     window.MathJax = {
         tex: {
@@ -43,21 +15,17 @@
     </script>
     <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 </head>
-
-<body>
-
+<body id="top">
 <h1>Talks</h1>
-
-<nav aria-labelledby="pages-heading">
+<nav aria-label="Main navigation">
     <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="research.html">Research</a>
     <a href="publications.html">Publications</a>
+    <a href="code.html">Code</a>
     <a href="teaching.html">Tutoring</a>
     <a href="talks.html" aria-current="page">Talks</a>
 </nav>
-
-<ul>
+<main>
+<div class="talks">
     <h2>
         Verma modules for quantum symmetric pairs
     </h2>
@@ -65,24 +33,24 @@
         Seminar on Quantum groups, Hopf algebras and monoidal categories
     </a>
     <p>
-        We construct Verma modules for quasi-split type AIII quantum symmetric pairs as induced modules. 
-        For this we use the Kolb--Yakimov <em>star product</em> to construct Cartan subalgebras uniformly in both subfamilies in this type. 
-        Then we construct a weak triangular decomposition of the coideal subalgebra into $U'_{&lt;} \otimes U'_{\circ} \otimes U'_{&gt;}$ via the <em>Letzter map</em>. 
+        We construct Verma modules for quasi-split type AIII quantum symmetric pairs as induced modules.
+        For this we use the Kolb--Yakimov <em>star product</em> to construct Cartan subalgebras uniformly in both subfamilies in this type.
+        Then we construct a weak triangular decomposition of the coideal subalgebra into $U'_{&lt;} \otimes U'_{\circ} \otimes U'_{&gt;}$ via the <em>Letzter map</em>.
         This decomposition is weak because $U'_{\circ} \otimes U'_{&gt;}$ is not a subalgebra.
-        We show that these Verma modules have unique irreducible quotients and distinguish irreducible finite dimensional modules up to isomorphism. 
-        If time permits, I will discuss also the small example of $U_q'(\mathfrak{gl}_2\times \mathfrak{gl}_2)\subset U_q(\mathfrak{gl}_4)$. 
-        In this case $U'_{\circ} \otimes U'_{&gt;}$ is in fact a subalgebra, and we introduce a family of <em>magical operators</em> to classify Verma modules that admit weight space decompositions. 
+        We show that these Verma modules have unique irreducible quotients and distinguish irreducible finite dimensional modules up to isomorphism.
+        If time permits, I will discuss also the small example of $U_q'(\mathfrak{gl}_2\times \mathfrak{gl}_2)\subset U_q(\mathfrak{gl}_4)$.
+        In this case $U'_{\circ} \otimes U'_{&gt;}$ is in fact a subalgebra, and we introduce a family of <em>magical operators</em> to classify Verma modules that admit weight space decompositions.
         This also leads to an explicit weight basis of their irreducible quotients.
 
     </p>
-    
+
         <h2>
             Webs, Hecke algebras and quantum symmetric pairs
         </h2>
         in <a href="https://sites.google.com/view/reptensor">
             Tensor categories in representation theory & vice versa
         </a>
-        <p> 
+        <p>
 
             We define a diagrammatic module category WebB over the usual type A web category, and use it to obtain multiplicity free decompositions of an anti-spherical Hecke module and of quantum exterior
             powers into irreducible modules over some type AIII quantum symmetric pair subalgebras $U'_q$. The key is a $q$-analogue of the classical decomposition of $\bigwedge^k W^+\oplus W^-$. Interestingly, this gives back a nontrivial
@@ -95,7 +63,7 @@
         <h2>
             Linear algebra applications
         </h2>
-        in 
+        in
         <a href="https://cosums.gitlab.io">
             Coideal Subalgebras and Module Categories
         </a>
@@ -110,21 +78,21 @@
             weights inside quantum exterior powers, thereby determining
             the isomorphism classes of their irreducible summands.
         </p>
-    </ul>
-    <ul>
+    </div>
+    <div class="talks">
         <h2>
             Weight modules for $\mathfrak{gl}_2\times \mathfrak{gl}_2$
         </h2>
         in <a href="https://indico.imapp.ru.nl/event/345/">
-            Quantum Symmetric Pairs, Hecke Algebras, and Representations: Exploring Spherical Functions 
+            Quantum Symmetric Pairs, Hecke Algebras, and Representations: Exploring Spherical Functions
         </a>
         <p>
             We develop a theory of weights for the quantum symmetric pair of type AIII associated to $(\mathfrak{gl}_4,\mathfrak{gl_2}\times \mathfrak{gl}_2)$. We define "magical" operators that are compatible with weight spaces (wrt. Letzter's Cartan subalgebra) and use them to study Verma modules and irreducible quotients. We then prove the existence of weight bases in tensor products by explicitly constructing some highest weight vectors. These constructions allow us to mimic the important aspects of the classical finite dimensional representation theory.
             Applications include a definition of rational representations, the BGG resolution, a Clebsch--Gordan formula, the Harish-Chandra isomorphism and central characters, as well as a classification and description of all irreducible polynomial representations.
         </p>
-    </ul>
+    </div>
 
-<ul>
+<div class="talks">
     <h2>  Tensor product decomposition of quantum $\mathfrak{gl}_2 \times \mathfrak{gl_2}$</h2>
     in <a href="https://blogs.ncl.ac.uk/puremaths/algebra-and-geometry/">
     Newcastle Pure Maths Seminars
@@ -132,34 +100,36 @@
     <p>
         Quantum symmetric pairs were introduced by Gail Letzter in the 90s as a quantization of the embedding $\mathfrak{g}^\theta$ into $\mathfrak g$, where $\mathfrak{g}$ is a simple Lie algebra and theta is a Lie algebra involution of $\mathfrak g$. It turns out that usually the only  possible quantization as a coideal of  $\mathfrak{g}^\theta$ is not a Hopf algebra.
         The upside of this quantization is that one can restrict the quantum group representations. The downside however, is that despite a classification and explicit Serre type presentation, the calculation is very lengthy and technical. Using Schur—Weyl duality and the theory of Ariki—Koike algebras, there is an abstract classification of simple submodules of tensor powers of the natural representation. Furthermore, by calculating common eigenspaces of Jucyc—Murphy elements (using sagemath), we calculated explicit  decomposition of small tensor powers of the natural representation into irreducibles. We found operators that mimic the two copies of $\mathfrak{sl}_2$, and we are hoping to
- find a nice description of irreducible representations there. 
+ find a nice description of irreducible representations there.
     </p>
-</ul>
+</div>
 
-<ul>
+<div class="talks">
     <h2> Representations of quantum $\mathfrak{gl}_2 \times \mathfrak{gl_2}$ </h2>
 
     in <a href="https://jas.rwth-aachen.de">Joint Algebra Seminar</a>
     <p>Quantum symmetric pairs were introduced by Gail Letzter in the 90s as a quantization of the embedding $\mathfrak{g}^\theta$
-    into $\mathfrak{g}$, where $\mathfrak{g}$ is a simple Lie algebra and $\theta$ is a Lie algebra involution of 
+    into $\mathfrak{g}$, where $\mathfrak{g}$ is a simple Lie algebra and $\theta$ is a Lie algebra involution of
     $\mathfrak{g}$. It turns out that usually the only possible quantization as a coideal of $\mathfrak{g}^\theta$
     is not a Hopf algebra. The upside of this quantization is that one can restrict the quantum group representations. The downside however, is that despite a classification and explicit Serre type presentation, the calculation is very lengthy and technical. In this project we studied the polynomial representations of $\mathfrak{gl}_4$
     restricted to $\mathfrak{gl}_2 \times \mathfrak{gl_2}$
     and found a nice classification and description of irreducible representations there. We are considering this case in more details at the moment and expect to generalize the results to the entire family of coideals.</p>
-</ul>
-<ul>
+</div>
+<div class="talks">
     <h2>Webs and $K$-matrices</h2>
     in <a href="https://tu-dresden.de/mn/math/geometrie/veranstaltungen/Seminar_Methoden">
         Seminar Geometric Methods in Mathematics
     </a>
-</ul>
-<ul>
+</div>
+<div class="talks">
     <h2>Webs and $K$-matrices</h2>
     in <a href="https://meetings.ams.org/math/spring2024w/meetingapp.cgi/Session/9194">AMS Special Session on Diagrammatic Algebras in Representation Theory and Beyond, I</a>
     <p>
         We define a diagrammatic category which captures the structure of a braided module category generated by a braided vector space and a solution of the reflection equation or boundary Yang-Baxter equation. Our diagrammatic category often behaves like a monoidal category, which is explained via a realization as annular webs. As an example, this category admits a functor to the category of representations of various quantum symmetric pair coideal subalgebras. Quantum symmetric pairs are introduced in the 1990s by Gail Letzter as generalizations of Drinfeld-Jimbo quantum groups. Balagovic–Kolb constructed a universal K matrices which act on representations of the coideal subalgebra and solves the reflection equation. We explicitly compute the K matrices associated to type AIII quantum symmetric pairs and extend the theory to type II representations of quantum . We expect the annular web category controls this representation category, which we will explore in future works.
     </p>
-</ul>
-</body>
+</div>
+
 <a href="#top" class="back-to-top">↑ Back to top</a>
+</main>
+</body>
 </html>
